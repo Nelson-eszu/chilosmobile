@@ -1,0 +1,7 @@
+{
+  "name": "ChilosMobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
