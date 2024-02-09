@@ -1,21 +1,76 @@
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.093627217694!2d-79.80962639290017!3d-3.327042305467436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9033150dc45cec1d%3A0x5df3749d03e4993c!2sChilo%E2%80%99s%20natural%20frozen%20yogurt!5e0!3m2!1ses-419!2sec!4v1707367169604!5m2!1ses-419!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<ion-tabs>
-  <ion-tab-bar slot="bottom">
-    <ion-tab-button tab="home">
-      <ion-icon name="play-circle"></ion-icon>
-      Listen Now
-    </ion-tab-button>
-    <ion-tab-button tab="radio">
-      <ion-icon name="radio"></ion-icon>
-      Radio
-    </ion-tab-button>
-    <ion-tab-button tab="library">
-      <ion-icon name="library"></ion-icon>
-      Library
-    </ion-tab-button>
-    <ion-tab-button tab="search">
-      <ion-icon name="search"></ion-icon>
-      Search
-    </ion-tab-button>
-  </ion-tab-bar>
-</ion-tabs>
+<ion-content class="background">
+  <ion-item>
+    <ion-img
+      src="assets/USUARIOS/15.png"
+      style="
+        width: 20%;
+        height: auto;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-top: 20%; /* Mueve la imagen hacia abajo */
+        margin-left: 10%;
+      "
+    >
+    </ion-img>
+    <ion-label color="dark" style="margin-top: 20%;">
+      <h1 style="font-family: 'Codec Pro'; color: #672d91">Jimena Martinez</h1>
+      <p>¡Hola, Jimena!</p>
+    </ion-label>
+  </ion-item>
+
+  <div class="star-box">
+      <h1>Tus estrellas</h1>
+      <ion-item>
+        <ion-label>
+          <h1>10</h1>
+        </ion-label>
+        <ion-img
+          src="assets/ICONO VARIOS/12.png"
+          style="
+            width: 50px;
+            height: auto;
+            overflow: hidden;
+            margin-right: 40%;
+          "
+        >
+        </ion-img>
+        <ion-img
+          src="assets/ICONO VARIOS/13.png"
+          style="
+            width: 50px;
+            height: auto;
+            overflow: hidden;
+            margin-right: 10%;
+          "
+        >
+        </ion-img>
+        
+      </ion-item>
+  </div>
+
+  <swiper-container
+    initial-slide="0"
+    [navegation]="true"
+    [pagination]="{type:'bullets',clickable:true}"
+    [autoplay]="true"
+  >
+  <swiper-slide>
+    <ion-img src="assets\BANERS\1.png" style="width: auto; margin-right: 5%; margin-left: 5%;"></ion-img>
+  </swiper-slide>
+  <swiper-slide>
+    <ion-img src="assets\BANERS\2.png" style="width: auto; margin-right: 5%; margin-left: 5%;"></ion-img>
+  </swiper-slide>
+  <swiper-slide>
+    <ion-img src="assets\BANERS\3.png" style="width: auto; margin-right: 5%; margin-left: 5%;"></ion-img>
+  </swiper-slide>
+  <swiper-slide>
+    <ion-img src="assets\BANERS\4.png" style="width: auto; margin-right: 5%; margin-left: 5%;"></ion-img>
+  </swiper-slide>
+  <swiper-slide>
+    <ion-img src="assets\BANERS\5.png" style="width: auto; margin-right: 5%; margin-left: 5%;"></ion-img>
+  </swiper-slide>
+  <swiper-slide>
+    <ion-img src="assets\BANERS\6.png" style="width: auto; margin-right: 10%; margin-left: 10%;"></ion-img>
+  </swiper-slide>
+  </swiper-container>
+</ion-content>

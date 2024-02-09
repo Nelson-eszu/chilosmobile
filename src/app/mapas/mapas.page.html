@@ -1,0 +1,123 @@
+<div class="container" >
+  <div class="content">
+    <ion-img src="assets\icon\Logoname.png" style="width: 45%"></ion-img>
+    <ion-label color="medium">¡Selecciona</ion-label>
+    <ion-label color="medium">tu heladería más cercana!</ion-label>
+  </div>
+</div>
+
+
+<swiper-container
+  initial-slide="0"
+  [navegation]="true"
+  [pagination]="{type:'bullets',clickable:true}"
+  #autoplay
+>
+<!--Machala-->
+  <swiper-slide>
+    <ion-card>
+      <ion-card-content>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.3454442432726!2d-79.96326774358752!3d-3.264137534054186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x90330e5edf27dcad%3A0xbdbf90d871011ff4!2sHeladeria%20Chilo&#39;s%20Natural%20Frozen%20Yogurt!5e0!3m2!1ses-419!2sec!4v1707458715125!5m2!1ses-419!2sec"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+        <ion-label color="light">Heladería Chilo's Natural Frozen</ion-label>
+        <h1>Pasaje</h1>
+        <ion-item>
+          <ion-img src="assets\icon\reloj.png" style="width: 10%; margin-right: 10%;"></ion-img>
+          <ion-label color="dark">Abre 10 am hata 10 pm</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-img src="assets\icon\ubicacion.png" style="width: 10%; margin-right: 10%;"></ion-img>
+          <ion-label color="dark">Av. Junin enre Eloy Alfaro y Gral. Manuel Serrano</ion-label>
+        </ion-item>
+        <ion-item><ion-img src="assets\icon\ubicacion.png" style="width: 10%; margin-right: 10%;"></ion-img>
+          <ion-label color="dark">Av. Alcides Pesantez.</ion-label></ion-item>
+      </ion-card-content>
+    </ion-card>
+  </swiper-slide>
+<!--Pasaje-->
+  <swiper-slide>
+    <ion-card>
+      <ion-card-content>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.091973434459!2d-79.8070396!3d-3.3274514999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9033150dc45cec1d%3A0x5df3749d03e4993c!2sChilo%E2%80%99s%20natural%20frozen%20yogurt!5e0!3m2!1ses-419!2sec!4v1707462769840!5m2!1ses-419!2sec"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+        <ion-label color="light">Heladería Chilo's Natural Frozen</ion-label>
+        <ion-item>
+          <ion-img src="assets\icon\reloj.png" style="width: 10%; margin-right: 10%;"></ion-img>
+          <ion-label color="dark" style="margin-right: 30px;">Abre 10 am hata 10 pm</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-img src="assets\icon\ubicacion.png"style="width: 10%; margin-right: 10%;"></ion-img>
+          <ion-label color="dark">Av. Ochoa Leon entre Bolivar y Sucre</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label color="dark"> </ion-label>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </swiper-slide>
+  <!--Santa Rosa-->
+  <swiper-slide>
+    <ion-card>
+      <ion-card-content>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.6021723084164!2d-79.96163829999999!3d-3.4465078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x903373027df267fd%3A0x3b0dd50cdb1ad621!2sChilos%20natural%20frozen%20yogurt!5e0!3m2!1ses-419!2sec!4v1707463246446!5m2!1ses-419!2sec"
+          width="100%"
+          height="300"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+        <ion-label color="light">Heladería Chilo's Natural Frozen</ion-label>
+        <ion-item>
+          <ion-img src="assets\icon\reloj.png" style="width: 10%; margin-right: 10%;"></ion-img>
+          <ion-label color="dark" style="margin-right: 30px;">Abre 10 am hata 10 pm</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-img src="assets\icon\ubicacion.png"style="width: 10%; margin-right: 10%;"></ion-img>
+          <ion-label color="dark">Av. Joffre Lima entre C. El oro y C. José María Ollague</ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label color="dark"> </ion-label>
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+  </swiper-slide>
+</swiper-container>
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="main">
+      <ion-img src="assets\icon\tabcar\inicio.png" style="width: 45%"></ion-img>
+      <span style="font-weight: bold">Inicio</span>
+    </ion-tab-button>
+    <ion-tab-button tab="radio">
+      <ion-img src="assets\icon\tabcar\status.png" style="width: 45%"></ion-img>
+      <span style="font-weight: bold">Status</span>
+    </ion-tab-button>
+    <ion-tab-button tab="library">
+      <ion-img src="assets\icon\tabcar\feback.png" style="width: 45%"></ion-img>
+      <span style="font-weight: bold">Recomendaciones</span>
+    </ion-tab-button>
+    <ion-tab-button tab="search">
+      <ion-img
+        src="assets\icon\tabcar\locales.png"
+        style="width: 45%"
+      ></ion-img>
+      <span style="font-weight: bold">Locales</span>
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>

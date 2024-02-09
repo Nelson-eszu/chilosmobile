@@ -1,0 +1,19 @@
+ion-content.background {
+  --background: url("../../assets/FONDOS/2.png") no-repeat center center / cover;
+}
+ion-item{
+  background: transparent;
+}
+.star-box {
+  margin: 10px;
+  width: 80%; /* Ancho del cuadro */
+  padding: 10px; /* Espacio interno alrededor del texto y las estrellas */
+  border: 1px solid #ccc; /* Borde del cuadro */
+  border-radius: 20px; /* Borde redondeado */
+  background-color: #f9f9f9; /* Color de fondo */
+
+  margin-left: auto; /* Margen izquierdo automático */
+  margin-right: auto; /* Margen derecho automático */
+}
+
+
